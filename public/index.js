@@ -5,7 +5,7 @@ async function main() {
 
     books.forEach(renderBook)
 }
-
+document.body.style.backgroundColor = 'violet'
 function renderBook(book) {
     let bookContainer = document.querySelector('.book-container')
     bookContainer.innerHTML += `
